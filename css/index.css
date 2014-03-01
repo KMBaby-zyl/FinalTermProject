@@ -1,0 +1,9 @@
+.wrpper{
+	width: 980px;
+	margin: 0 auto;
+}
+.head{margin-top: 200px;text-align: center;}
+
+.search{width: 500px; margin: 0 auto;}
+.searchInput{width: 400px;height: 30px; }
+.search_tips{top:0px; left:0px; color: #bfbfbf; width: 404px;height: 34px; cursor: text; line-height: 34px; text-indent: 10px;}

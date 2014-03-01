@@ -1,0 +1,14 @@
+.wrpper{
+	width: 980px;
+	margin: 0 auto;
+}
+.head{padding-top:50px;}
+
+.search{width: 500px; margin: 0 auto;}
+.searchInput{width: 400px;height: 30px; }
+.search_tips{top:0px; left:0px; color: #bfbfbf; width: 404px;height: 34px; cursor: text; line-height: 34px; text-indent: 10px;}
+
+.main{width: 980px; margin-top: 20px;}
+.mainList{}
+.listItem{width: 220px; float: left; display: inline; margin-right: 20px; margin-bottom: 20px;}
+.listItem .itemName{width: 220px;}

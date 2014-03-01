@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>比利比利</title>
+	<link type="text/css" href="css/common.css" rel="stylesheet">
+	<link type="text/css" href="css/index.css" rel="stylesheet">
+</head>
+<body>
+<div class="wrpper">
+	<div class="head">
+		<h1>比利比利</h1>
+		<h4>-专业的手机比价平台-</h4>
+	</div>
+	<div class="search pr">
+		<form action="/s" class="fm">
+				<input class="searchInput" type="text" maxlength="100">
+				<div class="search_tips pa">输入商品名称或复制其链接...</div>
+				<a class="btn-search" href="">搜索</a>
+		</form> 
+	</div>
+</div>
+<script type="text/javascript" src="sea-modules/sea.js" charset="utf-8"></script>
+<script type="text/javascript">
+// seajs 的简单配置
+seajs.config({
+  base: "./sea-modules/",
+  alias: {
+    "jquery": "jquery-1.8.3.min.js"
+  }
+})
+
+// 加载入口模块
+seajs.use("./js/search");
+</script>
+</body>
+</html>
