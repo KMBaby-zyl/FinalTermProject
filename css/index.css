@@ -1,9 +1,17 @@
+body{background:url(../images/bodybg.png);}
 .wrpper{
 	width: 980px;
 	margin: 0 auto;
 }
 .head{margin-top: 200px;text-align: center;}
-
-.search{width: 500px; margin: 0 auto;}
-.searchInput{width: 400px;height: 30px; }
-.search_tips{top:0px; left:0px; color: #bfbfbf; width: 404px;height: 34px; cursor: text; line-height: 34px; text-indent: 10px;}
+.search{width: 457px; height: 59px;background: url(../images/seach.png); margin: 0 auto;}
+.searchInput{width: 370px; height: 35px; background: #5e5e5e; position: absolute; top: 10px; 
+	left: 15px; border: 0px;  outline:0; color:#fff; font-family: "Arial"; font-size: 18px;}
+.search_tips{top:10px; left:15px; width: 370px;height: 35px; cursor: text; line-height: 34px; 
+	color:#fff; font-family: "Arial"; font-size: 18px;}
+.btn-search{ position: absolute; top: 11px; right: 16px; height: 35px; width: 30px;}
+.footer{width: 457px; height: 59px; margin: 20px auto;}
+.footer p,.footer span{font-family: "微软雅黑";}
+.footer p{margin-left: 20px;}
+.footList{ margin-left: 110px;}
+.footList .item{text-decoration: underline;}

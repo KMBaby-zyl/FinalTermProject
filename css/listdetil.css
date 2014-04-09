@@ -1,15 +1,25 @@
 .wrpper{
+	background: #e5e3e4;
 	width: 980px;
 	margin: 0 auto;
 }
-.head{padding-top:50px;}
+.head{padding-top:50px; width: 980px; height: 127px; background: #b4b1b1;}
+.logo{margin-left: 110px;}
+.search{width: 375px; height: 40px; background: url(../images/seach2.png); margin: 0 auto; margin-right: 40px;}
+.searchInput{width: 300px; height: 26px; background: #525151; border: 0; outline: none; position: absolute; top: 7px; left: 20px; color:#e4e0e0; }
 
-.search{width: 500px; margin: 0 auto;}
-.searchInput{width: 400px;height: 30px; }
-.search_tips{top:0px; left:0px; color: #bfbfbf; width: 404px;height: 34px; cursor: text; line-height: 34px; text-indent: 10px;}
+.search_tips{top:7px; left:20px; color: #e4e0e0; width: 300px;height: 26px; cursor: text; line-height: 26px;}
+.btn-search{ height: 26px; width: 26px; position: absolute; top: 7px; right: 22px;}
 
 .main{width: 980px; margin-top: 20px;}
-.mainList{}
+.mainList{ margin-left: 40px; margin-top: 40px;}
+.listbar{ width: 930px; height: 32px; background: #cad7e6; margin: 0 auto;}
+.listbar span{line-height: 32px; font-weight: bolder;}
+.listInfo{font-family: "微软雅黑"; font-size: 14px; margin-left: 20px;}
 .listItem{margin-right: 20px; margin-bottom: 20px;}
-.listItem .itemName{width: 220px; margin-top: 10px; margin-left: 20px; height: 70px;}
-.listItem .itemPrice{ height: 80px;}
+.itemImg img{height: 60px; width: 60px; background: #e5e3e4;}
+.listItem .itemName a{ color:#4986c3;}
+.listItem .itemName{width: 220px; margin-top: 10px; margin-left: 20px;}
+.listItem .itemShop{width: 63px; height: 30px; background: url(../images/yixunPic.png); margin: 14px 0 0 20px;}
+.listItem .itemPrice{ height: 60px; color: #ca2a00; padding-top: 8px; margin-left: 140px;}
+.listItem .itemBtn{width: 97px; height: 28px; background: url(../images/btn-go.png); margin: 14px 0 0 160px;}
