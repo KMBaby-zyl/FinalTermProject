@@ -5,6 +5,7 @@
 	<title>比利比利</title>
 	<link type="text/css" href="css/common.css" rel="stylesheet">
 	<link type="text/css" href="css/list.css" rel="stylesheet">
+	<link type="text/css" href="css/jqpagination.css" rel="stylesheet">
 </head>
 <body>
 <div class="wrpper">
@@ -15,11 +16,49 @@
 					<input class="searchInput" type="text" maxlength="100">
 					<div class="search_tips pa">输入商品名称或复制其链接...</div>
 					<a class="btn-search" href=""></a>
-			</form> 
+			</form>
 		</div>
 	</div>
 	<div class="main">
 		<p class="listInfo">共有6条关于iphone5s的搜索信息</p>
+		<div class="list-propertyList">
+			<table>
+				<tr>
+					<td class="row-hd">品牌</td>
+					<td class="row-bd">
+						<div class="row-bd-wrapper" style=" height: 98px;">
+							<a href="#"><span>MIUI/小米</span></a>
+							<a href="#"><span>Apple/苹果</span></a>
+							<a href="#"><span>Sansung/三星</span></a>
+							<a href="#"><span>Huawei/华为</span></a>
+							<a href="#"><span>Coolpad/酷派</span></a>
+							<a href="#"><span>Lenovo/联想</span></a>
+							<a href="#"><span>ZTE/中兴</span></a>
+							<a href="#"><span>Sony/索尼</span></a>
+							<a href="#"><span>vivo</span></a>
+							<a href="#"><span>OPPO</span></a>
+							<a href="#"><span>Nokia/诺基亚</span></a>
+							<a href="#"><span>HTC</span></a>
+							<a href="#"><span>Motorola/摩托罗拉</span></a>
+							<a href="#"><span>Meizu/魅族</span></a>
+							<a href="#"><span>BlackBerry/黑莓</span></a>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="row-hd">价格区间</td>
+					<td class="row-bd">
+						<div class="row-bd-wrapper clearfix" style=" height: 41px;">
+							<a href="#"><span>0-999元</span></a>
+							<a href="#"><span>999元-1999元</span></a>
+							<a href="#"><span>1999元-2999元</span></a>
+							<a href="#"><span>2999元-3999元</span></a>
+							<a href="#"><span>3999元以上</span></a>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
 		<ul class="mainList clearfix">
 			<li class="listItem">
 				<img src="http://img11.360buyimg.com/n7/858/3ebc8f60-b924-4d1b-af32-b4ac2f8408cf.jpg">
@@ -64,6 +103,13 @@
 				<div class="itemComment">4个报价</div>
 			</li>
 		</ul>
+		<div class="pagination">
+		    <a href="#" class="first" data-action="first">&laquo;</a>
+		    <a href="#" class="previous" data-action="previous">&lsaquo;</a>
+		    <input type="text" readonly="readonly" data-max-page="40" />
+		    <a href="#" class="next" data-action="next">&rsaquo;</a>
+		    <a href="#" class="last" data-action="last">&raquo;</a>
+		</div>
 	</div>
 </div>
 <script type="text/javascript" src="sea-modules/sea.js" charset="utf-8"></script>
@@ -72,12 +118,14 @@
 seajs.config({
   base: "./sea-modules/",
   alias: {
-    "jquery": "jquery-1.8.3.min.js"
+    "jquery" : "jquery-1.8.3.min.js",
+    "jqPage" : "jquery.jqpagination.js"
   }
 })
 
 // 加载入口模块
 seajs.use("./js/search");
+seajs.use("./js/list");
 </script>
 </body>
 </html>

@@ -1,3 +1,4 @@
+
 .wrpper{
 	background: #e5e3e4;
 	width: 980px;
@@ -21,5 +22,24 @@
 .itemPrice{color: #ca2a00;}
 .itemComment{width: 80px; height: 20px; border: 1px solid #286fb7; background: #9ec1e4; border-radius: 5px; color: #286fb7; text-align: center;}
 
+/*list-propertyList*/
+table{border-collapse: collapse;
+border-spacing: 0;}
+.list-propertyList{margin-top: 10px; margin-left: 40px; border: 1px solid #f3d7bb; width: 856px;}
+.row-hd {
+text-align: center;
+border-bottom: dotted 1px #e0e0e0;
+border-left-color: #f3d7bb;
+color: #f37c06;
+background-color: #fff8f2;
+}
 
-
+.row-bd{
+  border-bottom: dotted 1px #e0e0e0;
+  /*background-color: #fff;*/
+}
+.row-bd-wrapper{ width: 800px; background: #fff;}
+.row-bd-wrapper a{ float: left; padding: 9px 0 0 15px;overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;text-decoration: none; color: #666; width: 130px;}
+.row-bd-wrapper a:hover{color: #f37c06;};
